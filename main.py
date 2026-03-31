@@ -128,4 +128,6 @@ def get_suggests(user_id):
     return suggests
 
 
-app.run()
+if __name__ == '__main__':
+    app.run()
+    main()
